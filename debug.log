@@ -1,0 +1,289 @@
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": [
+                "card",
+                "gcash"
+            ],
+            "currency": "PHP"
+        }
+    }
+}
+Response:
+Method Not Allowed{
+    "data": {
+        "attributes": {
+            "amount": 100000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": [
+                "card",
+                "gcash"
+            ],
+            "currency": "PHP"
+        }
+    }
+}
+Response:
+Method Not Allowed{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": [
+                "card",
+                "gcash"
+            ],
+            "currency": "PHP"
+        }
+    }
+}
+Response:
+Method Not Allowed{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": [
+                "gcash"
+            ],
+            "currency": "PHP"
+        }
+    }
+}HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": [
+                "gcash"
+            ],
+            "currency": "PHP"
+        }
+    }
+}HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 401
+Response:
+{"errors":[{"code":"api_key_not_found","detail":"API key sk_test_G7T*****************hYydsk_test_G7ToHcocfAmj86Zsh3fehYyd does not exist. Go to https://developers.paymongo.com/docs/authentication to know more about our API authentication."}]}Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
+API Error: [
+    {
+        "detail": "Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.",
+        "meta": {
+            "type": "api_error"
+        },
+        "status": "500"
+    }
+]Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 1000000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
+API Error: [
+    {
+        "detail": "Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.",
+        "meta": {
+            "type": "api_error"
+        },
+        "status": "500"
+    }
+]Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
+API Error: [
+    {
+        "detail": "Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.",
+        "meta": {
+            "type": "api_error"
+        },
+        "status": "500"
+    }
+]Payload:
+{
+    "data": {
+        "attributes": {
+            "amount": 10000,
+            "description": "Test Payment",
+            "payment_method_allowed": [
+                "gcash"
+            ],
+            "payment_method_options": {
+                "gcash": []
+            },
+            "currency": "PHP"
+        }
+    }
+}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
+API Error: [
+    {
+        "detail": "Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.",
+        "meta": {
+            "type": "api_error"
+        },
+        "status": "500"
+    }
+]
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
+HTTP Code: 500
+Response:
+{"errors":[{"detail":"Something went wrong on our end. We have been notified and will be investigating. Trust us, these are rare.","meta":{"type":"api_error"},"status":"500"}]}
